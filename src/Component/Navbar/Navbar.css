@@ -1,0 +1,73 @@
+.Navbar {
+  height: 80px;
+  background-color: rgb(126, 39, 8);
+  position: relative;
+  margin-bottom: 20px;
+}
+.Navbar-body img {
+  width: 60px;
+  height: 60px;
+}
+.Navbar-body input {
+  border-radius: 50px;
+  border-style: none;
+  width: 60%;
+  height: 30px;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+  z-index: 1;
+  text-indent: 25px;
+  outline: rgb(126, 39, 8);
+}
+.Navbar-body input:focus {
+  box-shadow: none;
+  border-style: none;
+}
+.Navbar-body img {
+  position: relative;
+  left: 150px;
+  top: 5px;
+}
+.Navbar-body i {
+  position: absolute;
+  opacity: 0.5;
+  right: 80%;
+  top: 35px;
+  z-index: 2;
+}
+/*Media query*/
+@media screen and (max-width: 400px) {
+  .Navbar-body input {
+    border-radius: 50px;
+    border-style: none;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    z-index: 1;
+    text-indent: 25px;
+    outline: rgb(126, 39, 8);
+  }
+  .Navbar-body img {
+    position: relative;
+    left: 30px;
+    top: 5px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 766px) {
+  .Navbar-body img {
+    position: relative;
+    left: 80px;
+    top: 8px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .Navbar-body img {
+    position: relative;
+    left: 90px;
+    top: 8px;
+  }
+}
